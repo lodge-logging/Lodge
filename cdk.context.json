@@ -1,0 +1,40 @@
+{
+  "vpc-provider:account=504304018644:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-21b28859",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-ad48dfd5",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-5c21c626"
+          },
+          {
+            "subnetId": "subnet-81c474cb",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-5c21c626"
+          },
+          {
+            "subnetId": "subnet-27dabc7a",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-5c21c626"
+          },
+          {
+            "subnetId": "subnet-4c5b4267",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-5c21c626"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=kafka-zk-v2:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-006813a1cc8df3831"
+}
