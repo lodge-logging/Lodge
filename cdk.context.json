@@ -1,0 +1,40 @@
+{
+  "vpc-provider:account=681801284833:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0fe6ad88bac3b4c01",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0201d10cf310ef0ba",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-0f86eccef0c28cece"
+          },
+          {
+            "subnetId": "subnet-09907700f8e2e9ea2",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-0f86eccef0c28cece"
+          },
+          {
+            "subnetId": "subnet-0c502b4c063f54ab1",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-0f86eccef0c28cece"
+          },
+          {
+            "subnetId": "subnet-00cecb414b0a4c5e3",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-0f86eccef0c28cece"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=681801284833:filters.image-type.0=machine:filters.name.0=Logstash:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-02949c25f2f1f8993"
+}
