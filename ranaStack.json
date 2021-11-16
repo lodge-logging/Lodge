@@ -1,0 +1,10 @@
+{
+  "RanaStack": {
+    "KafkaclusterKafkaExports23134C14D": "172.31.24.166",
+    "ZookeeperclusterZookeeperExports275CD13F7": "172.31.25.251",
+    "ZookeeperclusterZookeeperExports0093881DD": "172.31.30.45",
+    "ZookeeperclusterZookeeperExports17257CE4F": "172.31.24.245",
+    "KafkaclusterKafkaExports09AAD5AC2": "172.31.19.249",
+    "KafkaclusterKafkaExports14F7694E4": "172.31.19.247"
+  }
+}
