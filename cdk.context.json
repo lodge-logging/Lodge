@@ -36,5 +36,6 @@
       }
     ]
   },
-  "ami:account=681801284833:filters.image-type.0=machine:filters.name.0=Logstash:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-02949c25f2f1f8993"
+  "ami:account=681801284833:filters.image-type.0=machine:filters.name.0=Logstash:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-02949c25f2f1f8993",
+  "ami:account=681801284833:filters.image-type.0=machine:filters.name.0=Logstash-Lodge:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-030190c438cdfb98b"
 }
