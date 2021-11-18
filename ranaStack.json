@@ -1,1 +1,18 @@
-{}
+{
+  "RanaStack": {
+    "ExportsOutputFnGetAttZookeeperclusterzk30521B11FPrivateIp60A3C277": "172.31.19.37",
+    "ExportsOutputFnGetAttZookeeperclusterzk2101CAF76PrivateIp7F51E1B6": "172.31.29.131",
+    "ZookeeperclusterZookeeperExports275CD13F7": "172.31.29.131",
+    "ExportsOutputFnGetAttZookeeperclusterzk1095BD344PrivateIp55F2BAC8": "172.31.26.17",
+    "ZookeeperclusterZookeeperExports17257CE4F": "172.31.26.17",
+    "ZookeeperclusterZookeeperExports3D725D6F3": "172.31.19.37"
+  },
+  "StartingStack": {
+    "KafkaclusterKafkaExports23134C14D": "172.31.27.51",
+    "ExportsOutputFnGetAttKafkaclusterkafkainstance1283685FCPrivateIp3F885249": "172.31.24.173",
+    "KafkaclusterKafkaExports3DCD160E3": "172.31.25.248",
+    "ExportsOutputFnGetAttKafkaclusterkafkainstance36DF4DA3FPrivateIp351110EB": "172.31.25.248",
+    "ExportsOutputFnGetAttKafkaclusterkafkainstance291AE3FEEPrivateIp0E3B68B0": "172.31.27.51",
+    "KafkaclusterKafkaExports14F7694E4": "172.31.24.173"
+  }
+}
