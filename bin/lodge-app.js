@@ -2,6 +2,7 @@
 const cdk = require("@aws-cdk/core");
 const { LodgeAppStack } = require("../lib/lodge-app-stack");
 const output = require("../output.json");
+
 const app = new cdk.App({ context: { output } });
 new LodgeAppStack(app, "LodgeAppStack", {
   //   /* If you don't specify 'env', this stack will be environment-agnostic.
