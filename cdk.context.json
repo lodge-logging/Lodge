@@ -1,1 +1,9 @@
-{}
+{
+  "availability-zones:account=681801284833:region=us-west-2": [
+    "us-west-2a",
+    "us-west-2b",
+    "us-west-2c",
+    "us-west-2d"
+  ],
+  "ami:account=681801284833:filters.image-type.0=machine:filters.name.0=Logstash-Lodge:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-030190c438cdfb98b"
+}
