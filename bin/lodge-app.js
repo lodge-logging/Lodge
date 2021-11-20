@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const cdk = require("@aws-cdk/core");
 const { LodgeAppStack } = require("../lib/lodge-app-stack");
-const { KafkaStage } = require("../lib/lodge-app-rana-stack");
+const { LodgeStage } = require("../lib/lodge-app-rana-stack");
 const output = require("../output.json");
 const app = new cdk.App({ context: { output } });
 //new LodgeAppStack(app, "LodgeAppStack", {
@@ -20,7 +20,7 @@ const app = new cdk.App({ context: { output } });
 //   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 //});
 
-new KafkaStage(app, "KafkaStage", {
+new LodgeStage(app, "LodgeStage", {
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
     region: process.env.CDK_DEFAULT_REGION,
