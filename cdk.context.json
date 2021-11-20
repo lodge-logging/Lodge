@@ -10,5 +10,6 @@
   "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Logstash-Lodge:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-030190c438cdfb98b",
   "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=KafkaClusterWebTools:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-0ec00295c88d45f78",
   "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Kibana:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-07fc4d3e4bdb4b92c",
-  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Elasticsearch:filters.state.0=available:region=us-west-2": "ami-0f4cc346ffa483126"
+  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Elasticsearch:filters.state.0=available:region=us-west-2": "ami-0f4cc346ffa483126",
+  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Elasticsearch-Lodge:filters.state.0=available:region=us-west-2": "ami-01c88aede35c71369"
 }

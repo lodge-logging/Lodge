@@ -11,6 +11,10 @@
     "ExportsOutputFnGetAttVPCzookeepersgE79D7A49GroupId57CCCAE4": "sg-086c0e1e75690fafa",
     "sshhostBastionHostIdFCF44996": "i-04e77a5a191ca777d"
   },
+  "s3Satck": {
+    "ExportsOutputRefs3Buckets3bucket4C3BA554CC8E5F49": "s3satck-s3buckets3bucket4c3ba554-ocinohowsg8i",
+    "ExportsOutputFnGetAtts3Buckets3bucket4C3BA554Arn4A144328": "arn:aws:s3:::s3satck-s3buckets3bucket4c3ba554-ocinohowsg8i"
+  },
   "RanaStack": {
     "ExportsOutputFnGetAttZookeeperclusterzk30521B11FPrivateIp60A3C277": "10.0.0.53",
     "ExportsOutputFnGetAttZookeeperclusterzk2101CAF76PrivateIp7F51E1B6": "10.0.0.39",
@@ -20,9 +24,12 @@
     "ZookeeperclusterZookeeperExports3D725D6F3": "10.0.0.53"
   },
   "SamStack": {
-    "elasticsearchESExports0B58CCC90": "10.0.0.56",
-    "elasticsearchESExports2DB036143": "10.0.0.44",
-    "elasticsearchESExports124B669E1": "10.0.0.117"
+    "elasticsearchESExports0B58CCC90": "10.0.0.41",
+    "elasticsearchESExports2DB036143": "10.0.0.9",
+    "ExportsOutputFnGetAttelasticsearchESMaster29E9878C3PrivateIpA952DCCD": "10.0.0.78",
+    "ExportsOutputFnGetAttelasticsearchESVoteOnly8369EB75PrivateIp1A61A48A": "10.0.0.9",
+    "elasticsearchESExports124B669E1": "10.0.0.78",
+    "ExportsOutputFnGetAttelasticsearchESMaster1DB4CED66PrivateIpE639EA78": "10.0.0.41"
   },
   "StartingStack": {
     "KafkaclusterKafkaExports23134C14D": "10.0.0.17",
