@@ -1,1 +1,10 @@
-{}
+{
+  "availability-zones:account=504304018644:region=us-west-2": [
+    "us-west-2a",
+    "us-west-2b",
+    "us-west-2c",
+    "us-west-2d"
+  ],
+  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Elasticsearch-Lodge:filters.state.0=available:region=us-west-2": "ami-01c88aede35c71369",
+  "ami:account=504304018644:filters.image-type.0=machine:filters.name.0=Kibana:filters.state.0=available:owners.0=504304018644:region=us-west-2": "ami-07fc4d3e4bdb4b92c"
+}

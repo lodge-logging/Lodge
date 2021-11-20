@@ -1,1 +1,18 @@
-{}
+{
+  "VpcStack": {
+    "ExportsOutputRefVPCpublicsubnetSubnet1SubnetF67286F43498FD91": "subnet-062cd4f52cb7da1de",
+    "ExportsOutputRefVPCpublicsubnetSubnet2Subnet0819D891EB34ECCE": "subnet-09651d24b0241f184",
+    "ExportsOutputFnGetAttVPCkibanasg2945796BGroupIdFEA13F65": "sg-010e0e5be9510d44b",
+    "ExportsOutputRefVPCpublicsubnetSubnet3Subnet3433AE9B80BD457F": "subnet-08ac087f6f2bec329",
+    "ExportsOutputFnGetAttVPCelasticsearchsg2FB9B8F0GroupId3F975649": "sg-066c7d8b0927ca18a",
+    "sshhostBastionHostIdFCF44996": "i-02bd7a59aae5324c1"
+  },
+  "SamStack": {
+    "elasticsearchESExports0B58CCC90": "10.0.0.36",
+    "elasticsearchESExports2DB036143": "10.0.0.60",
+    "ExportsOutputFnGetAttelasticsearchESMaster29E9878C3PrivateIpA952DCCD": "10.0.0.86",
+    "ExportsOutputFnGetAttelasticsearchESVoteOnly8369EB75PrivateIp1A61A48A": "10.0.0.60",
+    "elasticsearchESExports124B669E1": "10.0.0.86",
+    "ExportsOutputFnGetAttelasticsearchESMaster1DB4CED66PrivateIpE639EA78": "10.0.0.36"
+  }
+}
