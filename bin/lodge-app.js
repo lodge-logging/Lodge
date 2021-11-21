@@ -20,17 +20,9 @@ const app = new cdk.App({ context: { output } });
 //   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 //});
 
-// new LodgeStage(app, "LodgeStage", {
-//   env: {
-//     account: process.env.CDK_DEFAULT_ACCOUNT,
-//     region: process.env.CDK_DEFAULT_REGION,
-//   },
-// });
-
-const { SamStack } = require('../lib/lodge-app-sam-stack');
-new SamStack(app, 'SamStack', {
+new LodgeStage(app, "LodgeStage", {
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
     region: process.env.CDK_DEFAULT_REGION,
-  }
+  },
 });
