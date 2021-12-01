@@ -21,7 +21,7 @@ cluster.name: production
 # Use a descriptive name for the node:
 #
 node.name: master-1
-node.roles: [ master ]
+node.roles: [master]
 #
 # Add custom attributes to the node:
 #
@@ -54,7 +54,7 @@ bootstrap.memory_lock: true
 # By default Elasticsearch is only accessible on localhost. Set a different
 # address here to expose this node on the network:
 #
-network.host: [_ec2_]
+network.host: [_ec2:privateDns_]
 #
 # By default Elasticsearch listens for HTTP traffic on the first free port it
 # finds starting at 9200. Set a specific HTTP port here:
@@ -79,6 +79,7 @@ cluster.initial_master_nodes: [master-1, master-2, vote-only]
 discovery.seed_providers: ec2
 discovery.ec2.any_group: true
 discovery.ec2.host_type: private_ip
+dicovery.ec2.tag.cluster_name: production
 discovery.ec2.endpoint: ec2.us-west-2.amazonaws.com
 # ---------------------------------- Various -----------------------------------
 #
