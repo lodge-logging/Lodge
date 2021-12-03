@@ -1,0 +1,5 @@
+{
+  "subnetA": { "ip": "", "id": "" },
+  "subnetB": { "ip": "", "id": "" },
+  "subnetC": { "ip": "", "id": "" }
+}
