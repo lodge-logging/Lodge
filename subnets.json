@@ -1,5 +1,17 @@
 {
-  "subnetA": { "id": "", "ip": "", "az": "" },
-  "subnetB": { "id": "", "ip": "", "az": "" },
-  "subnetC": { "id": "", "ip": "", "az": "" }
+  "subnetA": {
+    "id": "subnet-27dabc7a",
+    "ip": "172.31.0.4",
+    "az": "us-west-2c"
+  },
+  "subnetB": {
+    "id": "subnet-ad48dfd5",
+    "ip": "172.31.16.4",
+    "az": "us-west-2a"
+  },
+  "subnetC": {
+    "id": "subnet-81c474cb",
+    "ip": "172.31.32.4",
+    "az": "us-west-2b"
+  }
 }
