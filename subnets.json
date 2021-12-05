@@ -1,5 +1,17 @@
 {
-  "subnetA": { "id": "", "ip": "", "az": "" },
-  "subnetB": { "id": "", "ip": "", "az": "" },
-  "subnetC": { "id": "", "ip": "", "az": "" }
+  "subnetA": {
+    "id": "",
+    "ip": "",
+    "az": ""
+  },
+  "subnetB": {
+    "id": "",
+    "ip": "",
+    "az": ""
+  },
+  "subnetC": {
+    "id": "",
+    "ip": "",
+    "az": ""
+  }
 }
