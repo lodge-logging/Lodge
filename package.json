@@ -20,6 +20,7 @@
     "@aws-cdk/aws-iam": "^1.132.0",
     "@aws-cdk/aws-s3": "^1.132.0",
     "@aws-cdk/core": "^1.132.0",
+    "aws-sdk": "^2.1043.0",
     "ip-cidr": "^3.0.4"
   }
 }
