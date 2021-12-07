@@ -3,17 +3,17 @@ const cdk = require("@aws-cdk/core");
 const { LodgeAppStage } = require("../lib/lodge-app-stage");
 const output = require("../output.json");
 
-const AWS = require("aws-sdk");
-const { writeFileSync } = require("fs");
+// const AWS = require("aws-sdk");
+// const { writeFileSync } = require("fs");
 
-const keyPath = require("path").join(
-  __dirname,
-  "..",
-  "..",
-  "Lodge",
-  "bin",
-  "lodge-key.pem"
-);
+// const keyPath = require("path").join(
+//   __dirname,
+//   "..",
+//   "..",
+//   "Lodge",
+//   "bin",
+//   "lodge-key.pem"
+// );
 
 const app = new cdk.App({ context: { output } });
 //   /* If you don't specify 'env', this stack will be environment-agnostic.
@@ -29,27 +29,27 @@ const app = new cdk.App({ context: { output } });
 //    * want to deploy the stack to. */
 //   // env: { account: '123456789012', region: 'us-east-1' },
 //   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
-(async () => {
-  const params = {
-    KeyName: "lodge-key",
-  };
-  try {
-    let res = await new AWS.EC2().createKeyPair(params).promise();
-    writeFileSync(keyPath, res.KeyMaterial);
-  } catch (error) {
-    console.log(error);
-  }
-  new LodgeAppStage(app, "LodgeAppStage", {
-    env: {
-      account: process.env.CDK_DEFAULT_ACCOUNT,
-      region: process.env.CDK_DEFAULT_REGION,
-    },
-  });
-})();
+// (async () => {
+//   const params = {
+//     KeyName: "lodge-key",
+//   };
+//   try {
+//     let res = await new AWS.EC2().createKeyPair(params).promise();
+//     writeFileSync(keyPath, res.KeyMaterial);
+//   } catch (error) {
+//     console.log(error);
+//   }
+//   new LodgeAppStage(app, "LodgeAppStage", {
+//     env: {
+//       account: process.env.CDK_DEFAULT_ACCOUNT,
+//       region: process.env.CDK_DEFAULT_REGION,
+//     },
+//   });
+// })();
 
-// new LodgeAppStage(app, "LodgeAppStage", {
-//   env: {
-//     account: process.env.CDK_DEFAULT_ACCOUNT,
-//     region: process.env.CDK_DEFAULT_REGION,
-//   },
-// });
+new LodgeAppStage(app, "LodgeAppStage", {
+  env: {
+    account: process.env.CDK_DEFAULT_ACCOUNT,
+    region: process.env.CDK_DEFAULT_REGION,
+  },
+});
