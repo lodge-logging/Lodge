@@ -3,17 +3,20 @@
     "subnetA": {
       "id": "",
       "ip": "",
-      "az": ""
+      "az": "",
+      "cidr": ""
     },
     "subnetB": {
       "id": "",
       "ip": "",
-      "az": ""
+      "az": "",
+      "cidr": ""
     },
     "subnetC": {
       "id": "",
       "ip": "",
-      "az": ""
+      "az": "",
+      "cidr": ""
     }
   },
   "publicSubnet": { "id": "", "az": "" },
