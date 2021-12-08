@@ -1,0 +1,22 @@
+{
+  "privateSubnets": {
+    "subnetA": {
+      "id": "",
+      "ip": "",
+      "az": ""
+    },
+    "subnetB": {
+      "id": "",
+      "ip": "",
+      "az": ""
+    },
+    "subnetC": {
+      "id": "",
+      "ip": "",
+      "az": ""
+    }
+  },
+  "publicSubnet": { "id": "", "az": "" },
+  "lodgeVpc": { "id": "", "cidr": "" },
+  "userCidr": ""
+}
